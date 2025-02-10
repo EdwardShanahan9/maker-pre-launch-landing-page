@@ -42,6 +42,11 @@ h1 {
 }
 
 h2 {
+  font-size: 2.4rem;
+  margin-bottom: 2.7rem;
+}
+
+h3 {
   font-size: 1.8rem;
   margin-bottom: 1.1rem;
 }
@@ -114,6 +119,7 @@ main {
   display: flex;
   align-items: center;
   flex-direction: column;
+  margin-bottom: 14.4rem;
 }
 
 .feature {
@@ -131,4 +137,66 @@ main {
 .feature--2,
 .feature--3 {
   margin-bottom: 5.6rem;
+}
+
+/*  */
+
+.prices {
+  text-align: center;
+}
+
+.prices p {
+  font-size: 1.5rem;
+  margin-bottom: 5.6rem;
+}
+
+.prices__cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.prices__card {
+  text-align: left;
+  border-radius: 8px;
+  padding: 4.8rem 3.8rem;
+  position: relative;
+}
+
+.prices__icon {
+  position: absolute;
+  top: -5%;
+  margin-bottom: 2.6rem;
+}
+
+.prices__card h3 {
+  font-size: 1.8rem;
+}
+
+.prices__card h3 {
+  font-size: 1.8rem;
+}
+
+.prices__card p {
+  font-size: 1.5rem;
+  margin-bottom: 2.4rem;
+}
+
+.prices__card--1 {
+  background-color: var(--color-dark-blue);
+  margin-bottom: 6.5rem;
+}
+
+.prices__card--2 {
+  color: var(--color-black);
+  background-color: var(--color-primary);
+  margin-bottom: 3.2rem;
+  padding: 6.1rem 3.8rem;
+}
+
+.prices__card--2 .prices__icon {
+  position: absolute;
+  top: -10%;
+  margin-bottom: 2.6rem;
 }
